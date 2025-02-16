@@ -16,7 +16,6 @@ The project is designed for web application testing with Playwright, showcasing 
 ├── 📁 tests                     # Test files (Monolithic & POM)  
 │   ├── monolithicTest.spec.js        # Monolithic style tests  
 │   ├── pomTest.spec.js    # POM-based test using ContactUsPage  
-│   └── example.spec.js           # Additional POM-based tests  
 │  
 ├── 📁 test-results              # Playwright test results and reports  
 ├── 📄 playwright.config.js      # Playwright configuration  
