@@ -30,26 +30,24 @@ Clone the repository:
   cd Hands-on-PlaywrightJS  
 
 2. Install dependencies:
-   <pre>
-  npm install
-  </pre>
+   <pre> ```bash npm install``` </pre> 
 
 4. Install Playwright browsers:
   ```bash
   npx playwright install  
 
 # Running Tests
-1. # For Monolithic script :
+1. ## For Monolithic script :
 The monolithicTest.spec.js file contains all actions and assertions in a single script without POM.
    ```bash
    npx playwright test tests/monolithic.spec.js  
  
-2. # For POM based scripts :
+2. ## For POM based scripts :
 The pomTest.spec.js file demonstrates the Page Object Model (POM) approach.
    ```bash
    npx playwright test tests/automationTask.spec.js  
 
-3. # For running all the test :
+3. ## For running all the test :
 To execute both monolithic and POM-based tests together:
    ```bash
    npx playwright test  
