@@ -26,12 +26,13 @@ The project is designed for web application testing with Playwright, showcasing 
 # Installation
 1. Ensure you have Node.js installed on your system.
 Clone the repository:
-  git clone   https://github.com/Zama-n-oob/Hands-on-PlaywrightJS.git
+  git clone https://github.com/Zama-n-oob/Hands-on-PlaywrightJS.git
   cd Hands-on-PlaywrightJS  
 
 2. Install dependencies:
   ```bash 
-  npm install  
+  npm install
+  ```bash
 
 4. Install Playwright browsers:
   ```bash
