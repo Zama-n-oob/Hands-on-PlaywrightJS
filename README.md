@@ -27,7 +27,6 @@ The project is designed for web application testing with Playwright, showcasing 
 1. Ensure you have Node.js installed on your system.
 Clone the repository:
   <pre> git clone https://github.com/Zama-n-oob/Hands-on-PlaywrightJS.git </pre>
-  <pre> </pre>cd Hands-on-PlaywrightJS </pre>
 
 2. Install dependencies:
    <pre> npm install </pre> 
@@ -49,6 +48,6 @@ To execute both monolithic and POM-based tests together:
    <pre> npx playwright test </pre>
 
 # Dependencies :
-Playwright: 1.5
+Playwright: 1.5,
 Node.js: 22.8.0
 
