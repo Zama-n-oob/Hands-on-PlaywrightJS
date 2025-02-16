@@ -35,15 +35,15 @@ Clone the repository:
    <pre>npx playwright install</pre>  
 
 # Running Tests
-1. ## For Monolithic script :
+ ## For Monolithic script :
 The monolithicTest.spec.js file contains all actions and assertions in a single script without POM.
    <pre> npx playwright test tests/monolithicTest.spec.js </pre> 
  
-2. ## For POM based scripts :
+ ## For POM based scripts :
 The pomTest.spec.js file demonstrates the Page Object Model (POM) approach.
    <pre> npx playwright test tests/pomTest.spec.js </pre>
 
-3. ## For running all the test :
+ ## For running all the test :
 To execute both monolithic and POM-based tests together:
    <pre> npx playwright test </pre>
 
