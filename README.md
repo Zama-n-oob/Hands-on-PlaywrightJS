@@ -26,31 +26,27 @@ The project is designed for web application testing with Playwright, showcasing 
 # Installation
 1. Ensure you have Node.js installed on your system.
 Clone the repository:
-  git clone https://github.com/Zama-n-oob/Hands-on-PlaywrightJS.git
-  cd Hands-on-PlaywrightJS  
+  <pre> git clone https://github.com/Zama-n-oob/Hands-on-PlaywrightJS.git </pre>
+  <pre> </pre>cd Hands-on-PlaywrightJS </pre>
 
 2. Install dependencies:
-   <pre> ```bash npm install``` </pre> 
+   <pre> npm install </pre> 
 
 4. Install Playwright browsers:
-  ```bash
-  npx playwright install  
+   <pre>npx playwright install</pre>  
 
 # Running Tests
 1. ## For Monolithic script :
 The monolithicTest.spec.js file contains all actions and assertions in a single script without POM.
-   ```bash
-   npx playwright test tests/monolithic.spec.js  
+   <pre> npx playwright test tests/monolithic.spec.js </pre> 
  
 2. ## For POM based scripts :
 The pomTest.spec.js file demonstrates the Page Object Model (POM) approach.
-   ```bash
-   npx playwright test tests/automationTask.spec.js  
+   <pre> npx playwright test tests/automationTask.spec.js </pre>
 
 3. ## For running all the test :
 To execute both monolithic and POM-based tests together:
-   ```bash
-   npx playwright test  
+   <pre> npx playwright test </pre>
 
 # Dependencies :
 Playwright: 1.5
