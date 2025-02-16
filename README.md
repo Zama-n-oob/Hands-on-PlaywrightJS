@@ -32,7 +32,7 @@ Clone the repository:
 2. Install dependencies:
   ```bash 
   npm install
-  ```bash
+  ---
 
 4. Install Playwright browsers:
   ```bash
