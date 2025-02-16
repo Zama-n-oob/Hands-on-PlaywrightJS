@@ -31,8 +31,7 @@ Clone the repository:
 
 2. Install dependencies:
    <pre>
-  ```bash 
-  npm install```
+  npm install
   </pre>
 
 4. Install Playwright browsers:
