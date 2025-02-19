@@ -10,7 +10,7 @@ class ContactUsPage {
         await this.page.getByPlaceholder('Subject').fill(contactDetails.subject);
         await this.page.getByPlaceholder('Your Message Here').fill(contactDetails.message);
         await this.page.locator('input[type="file"]').click();
-        const filepath = './tests/AhmedZamanPrantaCV.pdf';
+        const filePath = './tests/AhmedZamanPrantaCV.pdf';
         await this.page.setInputFiles('input[type="file"]', contactDetails.filePath);
     }
 }
