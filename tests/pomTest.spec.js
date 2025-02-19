@@ -44,7 +44,7 @@ test('Automation Task using Page Object Model', async ({ page }) => {
         email: 'ahmedzaman.069@gmail.com',
         subject: 'Application for Automation Engineer',
         message: 'I want to apply for the subjected position in your reputed organization.',
-        filePath: 'tests/AhmedZamanPrantaCV.pdf'
+        filePath: './tests/AhmedZamanPrantaCV.pdf'
     };
 
     // Login & Sign Up
