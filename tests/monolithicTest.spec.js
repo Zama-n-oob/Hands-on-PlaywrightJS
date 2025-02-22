@@ -5,8 +5,8 @@ test('Automation Task', async({page}) => {
 await page.goto('https://automationexercise.com/login');  
 
 // Homepage  
-await page.fill('input[name="name"]','fuck6');  
-await page.fill('input[data-qa="signup-email"]','fuck6@example.com');  
+await page.fill('input[name="name"]','Test User');  
+await page.fill('input[data-qa="signup-email"]','usertesting@gmail.com');  
 await page.click('button[data-qa="signup-button"]');  
 //await page.goto('https://automationexercise.com/signup');  
 
